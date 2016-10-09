@@ -55,7 +55,7 @@ export default class Header extends React.Component {
                         &gt;</div>
                     {
                         (this.state.loads) ?
-                            <div className='progress'>
+                            <div className='progress progress-striped active'>
                                 <div className='progress-bar progress-bar-danger'
                                      style={{width: this.state.count + '%' }}></div>
                             </div>
